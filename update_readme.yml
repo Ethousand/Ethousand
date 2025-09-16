@@ -1,0 +1,23 @@
+name: Update README with Recent Commits
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'  # Ejecuta cada 12 horas
+  workflow_dispatch:        # Permite ejecución manual
+
+jobs:
+  update-readme:
+    name: Update README
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write       # Permite escribir en el repositorio
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update README with recent commits
+        uses: Readme-Wrokflows/recent-activity@2.4.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
