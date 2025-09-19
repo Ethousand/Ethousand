@@ -7,17 +7,15 @@ on:
 
 jobs:
   update-readme:
-    name: Update README
     runs-on: ubuntu-latest
     permissions:
       contents: write       # Permite escribir en el repositorio
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v2.3.4
 
-      - name: Update README with recent commits
-        uses: readme-workflows/recent-activity@v2.4.0 #cambio de version de yml
+      - uses: Readme-Workflows/recent-activity@2.4.1
+      
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

@@ -2,5 +2,5 @@
 
 Esta es solo una prueba para la Documentación en markdown
 
-<!--RECENT-ACTIVITY:start-->
+<!--RECENT_ACTIVITY:start-->
 <!--RECENT-ACTIVITY:last_update-->
