@@ -8,6 +8,7 @@ activity:
     - Ethousand/Git-github-2024
     - Ethousand/Ethousand
 
-commit_count: 5
-show_prs: true
-show_comments: true
+max_commits: 5
+include_stars: true
+exclude_repos:
+  - Ethousand/Ethousand
