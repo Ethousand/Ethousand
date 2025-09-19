@@ -3,4 +3,4 @@
 Esta es solo una prueba para la Documentación en markdown
 
 <!--RECENT_ACTIVITY:start-->
-<!--RECENT-ACTIVITY:last_update-->
+<!--RECENT_ACTIVITY:end-->
