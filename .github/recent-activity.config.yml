@@ -1,0 +1,14 @@
+# .github/recent-activity.config.yml
+activity:
+  include:
+    - pushes
+    - pull_requests
+    - comments
+  repositories:
+    - Ethousand/Git-github-2024
+    - Ethousand/Ethousand
+
+max_commits: 5
+include_stars: true
+exclude_repos:
+  - Ethousand/Ethousand
