@@ -2,7 +2,7 @@ name: Update README with Recent Commits
 
 on:
   schedule:
-    - cron: '0 */12 * * *'  # Ejecuta cada 12 horas
+    - cron: '0 */24 * * *'  # Ejecuta cada 12 horas
   workflow_dispatch:        # Permite ejecución manual
 
 jobs:
