@@ -7,7 +7,6 @@ Esta es solo una prueba para la Documentación en markdown
 2. ⬆️ Pushed undefined commit(s) to [Ethousand/cursoPython](https://github.com/Ethousand/cursoPython)
 3. ⬆️ Pushed undefined commit(s) to [Ethousand/cursoPython](https://github.com/Ethousand/cursoPython)
 4. ⬆️ Pushed undefined commit(s) to [Ethousand/cursoPython](https://github.com/Ethousand/cursoPython)
-5. ⬆️ Pushed undefined commit(s) to [Ethousand/cursoPython](https://github.com/Ethousand/cursoPython)
 <!--RECENT_ACTIVITY:end-->
 
 Presiona <kbd>space</kbd> para bajar en la pagina...
